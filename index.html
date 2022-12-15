@@ -2,9 +2,7 @@
 <head>
      <title>My Movie page</title>
      <link rel="stylesheet" href="style.css">
-     <script>
-        alert("Everything is fine! Don't worry!");
-     </script>
+     <script src="app.js"></script>
 </head>
 <body>
     <header>
@@ -37,24 +35,20 @@
         <section id="fav">
             <h3>
                 <script>
-                if (confirm("Are you a bot?")) { 
-                    document.write("What is a bot doing here?");
-                } else { 
-                    document.write("Welcome human?");
-                }
+                    bot();
                 </script>
             </h3>
             <h2>
                 <script>
-                    let name = prompt("What is your name?");
-                    document.write("Welcome, " + name)
+                   name();
                 </script>
             </h2>
             <h3>Your favorite movie</h3>
             <ul>
                 <li>
-                    <script>let movie = prompt("What is your favorite movie?", "");
-                    document.write(movie);</script>
+                    <script>
+                        movie();
+                    </script>
                 </li>
             </ul>
             <h3>My favorite movies</h3>
