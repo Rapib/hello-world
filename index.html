@@ -2,11 +2,15 @@
 <head>
      <title>My Movie page</title>
      <link rel="stylesheet" href="style.css">
+     <script>
+        alert("Everything is fine! Don't worry!");
+     </script>
 </head>
 <body>
     <header>
         <h1>My Movie Page</h1>
-        <nav>
+
+          <nav>
             <ul>
               <li><a href="https://rapib.github.io/hello-world/">My Page</a></li>
               <li><a href="https://burdolski.github.io/hello-world/">Brice's Page</a></li>
@@ -21,7 +25,7 @@
         <section>
             <img id="die-hard" src="d.jpg" alt="Die Hard"/>
             <h3>Die Hard</h3>
-            <p>A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.</p>
+            <p>A New York City police officer tries to save his estranged wife and several others taken hostage by terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles. If you haven't watched it, you are wrong!</p>
         </section>
 
         <section>
@@ -31,20 +35,44 @@
         </section>
 
         <section id="fav">
+            <h3>
+                <script>
+                if (confirm("Are you a bot?")) { 
+                    document.write("What is a bot doing here?");
+                } else { 
+                    document.write("Welcome human?");
+                }
+                </script>
+            </h3>
+            <h2>
+                <script>
+                    let name = prompt("What is your name?");
+                    document.write("Welcome, " + name)
+                </script>
+            </h2>
+            <h3>Your favorite movie</h3>
+            <ul>
+                <li>
+                    <script>let movie = prompt("What is your favorite movie?", "");
+                    document.write(movie);</script>
+                </li>
+            </ul>
             <h3>My favorite movies</h3>
             <ol>
                 <li>Die Hard</li>
                 <li>Inception</li>
                 <li>Skyfall</li>
             </ol>  
+            <h3>What is a Movie?</h3>
+            <p>A movie, also called a film or a motion picture, is a series of still photographs...I can keep going on and on until you are tired of reading lalalalalalalalalalalalala lalalalalalalalalalalalalalalalalalalalalala. How's life? This is Hal, or not.</p>
         </section>
     </main>
 
 
 
     <footer>
-        <p>&copy; Thomas Lau</p>
-        Source: imdb
+        <p><b>&copy; Thomas Lau</p>
+        Source: imdb</b>
     </footer>
 
 </body>

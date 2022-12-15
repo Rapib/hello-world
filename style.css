@@ -1,13 +1,6 @@
-body{
-    background-color: blanchedalmond;
-    margin: 50px;
-}
-
-
-h1 {
-    display: inline-block;
-    text-shadow: 2px 2px;
-    padding-right: 100px;
+header {
+    background-color: rgb(230, 228, 190);
+    text-align: center;
 }
 
 nav {
@@ -28,11 +21,31 @@ nav ul a {
     list-style: none;
 }
 
+body {
+    background-color: blanchedalmond;
+    margin: 50px;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    text-shadow: 2px 2px;
+    padding-right: 100px;
+}
+
+h2 {
+    color: navy;
+}
+
+h3 {
+    color: black;
+}
+
 section {
     text-align: center;
     color: darkgreen;
     width: 25%;
-   
+   padding-top: 50px;
     display: inline-block;
 }
 
@@ -48,4 +61,8 @@ section {
 #inception {
 border: 5px rgb(136, 0, 116) solid;
     height: 300px;
+}
+
+footer {
+    color: blue;
 }
